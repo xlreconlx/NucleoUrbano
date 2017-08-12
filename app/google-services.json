@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "563589474464",
+    "firebase_url": "https://nucleourbano-5b3c9.firebaseio.com",
+    "project_id": "nucleourbano-5b3c9",
+    "storage_bucket": "nucleourbano-5b3c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563589474464:android:aa6f774db65f674c",
+        "android_client_info": {
+          "package_name": "com.premiosnucleourbano.nucleourbano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563589474464-husq641qgslbtj8judttavmivj26errj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEEgvLF9ATEoKnexusFp9n8FhaGZw8M2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

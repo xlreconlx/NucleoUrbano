@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nucleo Urbano</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_login">Log in</string>
+    <string name="menu_logout">Salir</string>
+    <string name="name_cate">Categorias</string>
+    <string name="end_votacion">Han Finalizado las Votaciones</string>
+    <string name="facebook_app_id">379803855552462</string>
+    <string name="fb_login_protocol_scheme">fb379803855552462</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_second_id">ca-app-pub-8470610934699118/3068130985</string>
+    <string name="banner_ad_unit_three_id">ca-app-pub-8470610934699118/4337992387</string>
+</resources>
