@@ -11,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SignInActivity">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".SignInActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,7 +40,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".ArtistActivity"></activity>
+        <activity android:name=".ArtistActivity" android:screenOrientation="portrait"></activity>
         <service
             android:name=".NucleoFirebaseMessagingService">
             <intent-filter>
@@ -55,7 +55,7 @@
         </service>
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/ic_play_arrow_black_24dp" />
+            android:resource="@drawable/nucleof" />
     </application>
 
 </manifest>

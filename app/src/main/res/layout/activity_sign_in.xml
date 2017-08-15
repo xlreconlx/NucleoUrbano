@@ -65,5 +65,25 @@
         android:layout_centerVertical="true"
         android:progressDrawable="@drawable/circular_progress_view"/>
 
+    <ImageView
+        android:id="@+id/bill"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignBottom="@+id/living"
+        android:src="@drawable/bill" />
+
+    <ImageView
+        android:id="@+id/living"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/living" />
+
 
 </RelativeLayout>

@@ -151,7 +151,7 @@ public abstract class ArtistaListFragment extends Fragment {
                       mutableData.setValue(vote);
                       return Transaction.success(mutableData);
                  }
-                 System.out.println("Votos:"+v.votos);
+
                  v.votos = v.votos + 1L;
                  mutableData.setValue(v);
                  return Transaction.success(mutableData);
